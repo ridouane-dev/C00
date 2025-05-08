@@ -8,10 +8,12 @@ read -p "Entrez le nom du fichier : " filename
 if [ -f $filename ]; then
 
   echo "
-Le fichier '$filename' existe."
+Le fichier '$filename' existe.
+"
 
 #dans le cas contriare il affichera le message suivants
 else
   echo "
-Le fichier '$filename' n'existe pas."
+Le fichier '$filename' n'existe pas.
+"
 fi
